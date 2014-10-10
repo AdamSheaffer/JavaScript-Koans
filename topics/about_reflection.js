@@ -11,7 +11,7 @@ var B = function() {
 B.prototype = new A();
 
 test("typeof", function() {
-    equal(__, typeof({}), 'what is the type of an empty object?');
+    equal("object", typeof({}), 'what is the type of an empty object?');
     equal(__, typeof('apple'), 'what is the type of a string?');
     equal(__, typeof(-5), 'what is the type of -5?');
     equal(__, typeof(false), 'what is the type of false?');		
